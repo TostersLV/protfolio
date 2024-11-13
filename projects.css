@@ -1,0 +1,76 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    display: flex;                    /* Use Flexbox */
+    flex-direction: column;           /* Stack content vertically */
+    justify-content: center;          /* Vertically center content */
+    align-items: center;              /* Horizontally center content */
+    height: 100vh;                    /* Full viewport height */
+    background-color: #88C273;        /* Light background color */
+    color: #333;                      /* Dark text color */
+    font-family: Arial, sans-serif;   /* Font style */
+    text-align: center;               /* Center text inside the body */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #62825D;        /* Match navbar background color with body background */
+    padding: 3vh;                     /* Adjust padding in vh for responsiveness */
+    display: flex;
+    justify-content: center;
+    gap: 8vw;                          /* Adjust gap between buttons using vw for responsiveness */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;                       /* Make navbar span the full width */
+    z-index: 10;                       /* Ensure navbar stays above content */
+}
+
+/* Button styling */
+.nav-button {
+    background-color: #333;           /* Dark button color */
+    border: none;
+    color: white;
+    padding: 2vh 4vw;                  /* Adjust padding using vh and vw for scaling */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;                    /* Adjust font size using vh */
+    cursor: pointer;
+    border-radius: 1vh;                /* Border radius in vh */
+    transition: background-color 0.3s ease;
+
+}
+
+.nav-button:hover {
+    background-color: #45a049;         /* Lighter color for hover effect */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 5vh;                   /* Adjust font size with vh */
+    margin-bottom: 12vh;               /* Space below the heading */
+}
+
+/* Image styling */
+img {
+    max-width: 20vw;                  /* Limit image width to 20% of viewport width */
+    height: auto;                     /* Maintain aspect ratio */
+    margin-top: 2vh;                  /* Space above the image */
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

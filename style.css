@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    background-color: black;
+    background-color: #432E54;
     color: white;
 }
 .heading {
@@ -14,7 +14,7 @@
     font-size: 2vh;
 }
 .navbar {
-    background-color: #333;
+    background-color: #4B4376;
     padding: 2vh; /* Changed padding from px to vh */
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .nav-button {
-    background-color: gray;
+    background-color: #432E54;
     border: none;
     color: white;
     padding: 2vh 4vw; /* Changed padding from px to vh and vw */
@@ -38,10 +38,22 @@
 .nav-button:hover {
     background-color: red;
 }
+a{
+    background-color: #4B4376;
+}
 
 /* Heading styling */
 .heading {
     font-size: 5vh; /* Adjusted font size to vh */
     margin-top: 4vh; /* Adjusted margin top to vh */
     text-align: center;
+}
+.me{
+    background-color: #4B4376;
+    border: #AE445A 1vh solid;
+    border-radius: 2vh;
+    width: 50vh;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-left: 10vh; 
 }
