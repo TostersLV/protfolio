@@ -22,7 +22,7 @@
 }
 
 .nav-button {
-    background-color: #4CAF50;
+    background-color: gray;
     border: none;
     color: white;
     padding: 2vh 4vw; /* Changed padding from px to vh and vw */
@@ -36,7 +36,7 @@
 }
 
 .nav-button:hover {
-    background-color: #45a049;
+    background-color: red;
 }
 
 /* Heading styling */
